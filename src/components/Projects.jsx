@@ -4,7 +4,7 @@ import '../App.css';
 
 const projects = [
   {
-    title: "Next-Gen AI Platform",
+    title: "Next-Gen AI Platform Blockchain ",
     description: "A robust AI-driven solution transforming industries with real-time decision-making.",
     details: "Tech Stack: React, TensorFlow, Node.js | Solved: Automated decision-making at scale.",
     image: "/api/placeholder/400/300",
@@ -113,7 +113,7 @@ const Projects = () => {
           initial="hidden"
           animate="visible"
         >
-          {filteredProjects.map((project, index) => (
+          {filteredProjects.map((project) => (
             <motion.div
               key={project.title}
               className="project-card"
